@@ -1,0 +1,34 @@
+{
+  "name": "spotify-sdk",
+  "version": "1.0.0",
+  "description": "Spotify SDK Player",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "astaiglesia",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "parcel": "^2.5.0",
+    "prettier": "^2.6.2",
+    "sass": "^1.51.0"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
+}
