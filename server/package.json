@@ -5,20 +5,22 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "server1": "nodemon server.js",
-    "server2": "nodemon index.js",
+    "spotify": "nodemon index.js",
     "client": "npm start --prefix ../client",
-    "dev": "concurrently \"npm run server1\" \"npm run server2\" \"npm run client\""
+    "dev": "concurrently \"npm run spotify\" \"npm run client\""
   },
   "author": "astaiglesia",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.27.2",
     "cors": "^2.8.5",
     "express": "^4.18.1"
   },
   "devDependencies": {
-    "dotenv": "^16.0.0",
     "concurrently": "^7.1.0",
-    "nodemon": "^2.0.16"
+    "dotenv": "^16.0.0",
+    "http-proxy-middleware": "^2.0.6",
+    "nodemon": "^2.0.16",
+    "request": "^2.88.2"
   }
 }
