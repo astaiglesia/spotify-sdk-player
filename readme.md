@@ -2,6 +2,14 @@
 
 
 ## Get Started Fast
+- from the client directory
+
+```
+npm install
+
+```
+
+- from the server directory
 ```
 npm install
 npm run dev
